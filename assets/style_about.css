@@ -106,16 +106,27 @@ transition: 0.3s;
         justify-content: center;
     }
 }
-.center
+.cent{
+    width:60%;
+}
+.cent h2
+{
+color: #FF2F2F;
+padding-left: 450px;
+padding-top: 40px;
+}
+.self
 {
     padding-left: 450px;
-    padding-top: 200px;
-    font-size: 30px;
-    font-weight: 700px;
+padding-top: 40px;
+color: #f4e9e9;
+list-style-type: none;
 }
-.center_1
+.tool1
 {
+    padding-left: 450px;
+}
+.tool1 li{
     color: white;
-    font-size: 25px;
-    font-weight: 700px;
+list-style-type: none;
 }
