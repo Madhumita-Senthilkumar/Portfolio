@@ -104,15 +104,48 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
-    .center h3{
-        margin:0;
-        font-size: 12px;
+    .center{
+        display: contents;
     }
-    
+    .center h2
+    {
+        font-size: 14px;
+        padding-left: 120px;
+    padding-top: 230px;
+    }
+    .wrap h3
+    {
+        font-size: 14px;
+        padding-left: 120px;
+    }
+    .dynamic b{
+        display: contents;
+        font-size: 14px;
+    }
+    .center_1 
+    {
+        display: contents;
+    }
+    .center_1 p
+    {
+        padding-left: 120px;
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .static h2
+    {
+        padding-left: 120px;
+        font-size: 14px;
+    }
+    .dynamic li span {
+        display: block;
+        position: relative;
+        font-size: 14px;
+    }
 }
-.cen{
-width:100%;
-height:100%;
+.master
+{
+    display: contents;
 }
 .center
 {
@@ -125,6 +158,8 @@ height:100%;
 {
     color: white;
     font-size: 25px;
+    padding-top: 40px;
+    padding-right: 20px;
     font-weight: 700px;
 }
 .wrap
@@ -133,7 +168,7 @@ height:100%;
 }
 .wrap .static
 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
 }
 .wrap .dynamic
