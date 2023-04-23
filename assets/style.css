@@ -139,14 +139,7 @@ transition: 0.3s;
     font-size: 60px;
     font-weight: 400;
     position: relative;
-    top: 10px;
-    animation: slide 6s steps(2) infinite;
-}
-@keyframes slide {
-    100%
-    {
-        top:-360px;
-    }
+    top: 0px;
 }
 .dynamic li span ::after{
 content: "";
@@ -156,7 +149,7 @@ left:0;
 background: rgb(46, 45, 45); ;
 width:100%;
 border-left: 2px solid #FF2F2F;
-animation: typing 1.5s steps(15) infinite;
+animation: typing 3s steps(30) infinite;
 }
 .dynamic li span{
     position: relative;
