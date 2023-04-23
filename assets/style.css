@@ -106,3 +106,12 @@ transition: 0.3s;
         justify-content: center;
     }
 }
+.cent
+{
+    padding-left: 650px;
+    padding-top: 100px;
+}
+.cent img
+{
+    border-radius: 60%;
+}
