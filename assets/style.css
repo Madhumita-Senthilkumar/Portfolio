@@ -119,3 +119,52 @@ transition: 0.3s;
     font-size: 25px;
     font-weight: 700px;
 }
+.wrap
+{
+    display: inline-flex;
+}
+.wrap .static
+{
+    font-size: 60px;
+    font-weight: 400;
+}
+.wrap .dynamic
+{
+    margin-left: 15px;
+    overflow: hidden;
+}
+.dynamic li{
+    color: #FF2F2F;
+    list-style-type: none;
+    font-size: 60px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    animation: slide 6s steps(2) infinite;
+}
+@keyframes slide {
+    100%
+    {
+        top:-360px;
+    }
+}
+.dynamic li span ::after{
+content: "";
+position: absolute;
+height:100%;
+left:0;
+background: rgb(46, 45, 45); ;
+width:100%;
+border-left: 2px solid #FF2F2F;
+animation: typing 1.5s steps(15) infinite;
+}
+.dynamic li span{
+    position: relative;
+}
+@keyframes typing {
+    100%
+    {
+       left:100%;
+       margin:0 -45px 0 45px; 
+    }
+}
