@@ -106,12 +106,16 @@ transition: 0.3s;
         justify-content: center;
     }
 }
-.cent
+.center
 {
-    padding-left: 650px;
-    padding-top: 100px;
+    padding-left: 450px;
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: 700px;
 }
-.cent img
+.center_1
 {
-    border-radius: 60%;
+    color: white;
+    font-size: 25px;
+    font-weight: 700px;
 }
