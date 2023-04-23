@@ -105,7 +105,13 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
-}
+    .cent{
+        display: contents;
+    }
+    .cent h2{
+        
+    }
+} 
 .cent{
     width:60%;
 }
