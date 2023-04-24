@@ -9,7 +9,7 @@
 .header
 {
     width:100%;
-    height: 100vh;
+    height: 100%;
     background: rgb(46, 45, 45);
 }
 .side_nav
@@ -142,7 +142,7 @@ transition: 0.3s;
     }
 } 
 .cent{
-    width:50%;
+    width:80%;
 }
 .cent h2
 {
@@ -164,4 +164,11 @@ list-style-type: none;
 .tool1 li{
     color: white;
 list-style-type: none;
+}
+.top
+{
+    display: inline;
+    position: relative;
+    padding-left: 220px;
+    width: 100%;
 }
