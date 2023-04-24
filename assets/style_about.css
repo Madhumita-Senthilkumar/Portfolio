@@ -140,6 +140,13 @@ transition: 0.3s;
     {
         padding-top:2px;
     }
+    .top
+    {
+        display: contents;
+    }
+    .break{
+        color:#FF2F2F;
+    }
 } 
 .cent{
     width:80%;
@@ -168,7 +175,9 @@ list-style-type: none;
 .top
 {
     display: inline;
-    position: relative;
-    padding-left: 220px;
     width: 100%;
+}
+.break
+{
+    display: none;
 }
