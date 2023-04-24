@@ -106,3 +106,14 @@ transition: 0.3s;
         justify-content: center;
     }
 } 
+.center
+{
+    padding-left: 450px;
+    height:100vh;
+    width: 100%;
+    background:rgb(46, 45, 45);
+}
+.center h2
+{
+    padding-top: 40px;
+}
