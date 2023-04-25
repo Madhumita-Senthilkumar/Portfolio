@@ -50,7 +50,7 @@
 <h3>Contact Form</h3>email
 ​
 <div class="container">
-  <form class="form1" action="./index.html" name="myForm" onsubmit="return validate()">
+  <form class="form1" name="myForm">
     <br><br><br>
     <label  class="name" color="" for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your name..">
@@ -59,13 +59,13 @@
     <input type="text" id="email" name="email" placeholder="Your Email..">
 ​​<br>
     <label class="country" for="country">Country</label>
-    <input type="text" id="country" name="name" placeholder="Your country..">
+    <input type="text" id="country" name="country" placeholder="Your country..">
 ​​<br>
 <div class="sub1">
     <label for="subject" class="sub">Subject</label>
-    <input type="text" id="country" name="name" placeholder="" style="height: 200px; margin-left: 4px;">
+    <input type="text" id="country" name="subject" placeholder="" style="height: 200px; margin-left: 4px;">
     <br><br></div>
-    <input type="submit" class="submit" value="Submit">
+    <input type="submit" class="submit" value="Submit" onclick="validate()">
   </form>
   <br><br>
   <div class="fblock">

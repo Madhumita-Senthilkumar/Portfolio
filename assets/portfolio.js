@@ -1,12 +1,13 @@
 function validate()
 {
-    var name=document.getElementById("name").value;
-    var email=document.getElementById("email").value;
-    var country=document.getElementById("country").value;
-    var subject=document.getElementById("subject").value;
+    var name=document.forms["myForm"]["name"].value;
+    var email=document.forms["myForm"]["email"].value;
+    var country=document.forms["myForm"]["country"].value;
+    var subject=document.forms["myForm"]["subject"].value;
     if(name=="" && email=="" && country=="" && subject=="")
     {
         alert("All fields are required");
         return false;
     }
+    alert("ThankYou")
 }
