@@ -180,6 +180,46 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
+    .container
+    {
+        display: contents;
+        font-size: 14px;
+        padding-left: 120px;
+    }
+    .name,.email,.country,.sub
+    {
+        padding-left: 120px;
+        padding-right: 3px;
+    }
+    #name,#email,#country
+    {
+        width:40%;
+    }
+    #subject
+    {
+        margin-left: 180px;
+        margin-right: 50px;
+        width:147px;
+    }
+    input[type=submit] {
+        background-color: #04AA6D;
+        margin-left: 200px;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      ​
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      .fblock
+      {
+        display: inline;
+        padding-left: 180px;
+      }
+      ​
 } 
 .container
 {
