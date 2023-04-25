@@ -95,52 +95,60 @@ transition: 0.3s;
   {
     width: 50%;
     padding: 2px;
-    border: 1px solid #ccc;
+    border-bottom: 2px solid #f28f8f;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-left: 15px;
+border-right: none;
     margin-bottom: 16px;
     resize: vertical;
+    background: none;
   }
   #email
   {
     width: 50%;
     padding: 2px;
-    border: 1px solid #ccc;
+    border-bottom: 2px solid #f28f8f;
     border-radius: 4px;
+    border-right: none;
     box-sizing: border-box;
     margin-top: 6px;
     margin-left: 19px;
     margin-bottom: 16px;
     resize: vertical;
+    overflow: hidden;
+    background: none;
   }
   #country
   {
     width: 50%;
     padding: 2px;
-    border: 1px solid #ccc;
+    border-bottom: 2px solid #f28f8f;
+    border-right: none;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-left: 0px;
     margin-bottom: 16px;
     resize: vertical;
+    background: none;
   }
   #subject
   {
     width: 50%;
+    border-right: none;
     padding: 2px;
-    border: 1px solid #ccc;
+    border-bottom: 2px solid #f28f8f;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-left: 60px;
     margin-bottom: 16px;
     resize: vertical;
+    background: none;
   }
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ff2f2f;
     margin-left: 300px;
     color: white;
     padding: 12px 20px;
@@ -150,12 +158,12 @@ transition: 0.3s;
   }
   ​
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff2f2f;
   }
   ​
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #FF2F2F;
     padding: 20px;
     padding-right: 50px;
   }
@@ -202,7 +210,7 @@ transition: 0.3s;
         width:147px;
     }
     input[type=submit] {
-        background-color: #04AA6D;
+        background-color: #ff2f20;
         margin-left: 200px;
         color: white;
         padding: 12px 20px;
@@ -210,16 +218,14 @@ transition: 0.3s;
         border-radius: 4px;
         cursor: pointer;
       }
-      ​
       input[type=submit]:hover {
-        background-color: #45a049;
+        background-color: #FF2F2F;
       }
       .fblock
       {
         display: inline;
         padding-left: 180px;
       }
-      ​
 } 
 .container
 {
@@ -228,4 +234,8 @@ transition: 0.3s;
 .container label
 {
     color: #FF2F2F;
+}
+.sub1
+{
+    display: inline;
 }
