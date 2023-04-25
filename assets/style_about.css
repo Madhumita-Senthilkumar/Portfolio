@@ -164,6 +164,14 @@ padding-top: 40px;
 color: #f4e9e9;
 list-style-type: none;
 }
+.self_2 img
+{
+    margin-top: 4px;
+}
+.self_2 b
+{
+    padding-left: 20px;
+}
 .tool1
 {
     padding-left: 450px;
