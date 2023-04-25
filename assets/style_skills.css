@@ -106,3 +106,7 @@ transition: 0.3s;
         justify-content: center;
     }
 } 
+.container
+{
+    padding-left: 120px;
+}
