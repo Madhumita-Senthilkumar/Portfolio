@@ -106,7 +106,7 @@ transition: 0.3s;
         justify-content: center;
     }
     .cent{
-        height: 100vh;
+        height: 100%;
     }
     .center {
         display: contents;
