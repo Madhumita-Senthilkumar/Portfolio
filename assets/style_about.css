@@ -90,7 +90,7 @@ transition: 0.3s;
 {
     display: none;
 }
-@media only screen and (max-width: 375px)
+@media only screen and (max-width: 576px)
 {
     .side_nav
     {
@@ -117,7 +117,7 @@ transition: 0.3s;
         padding-top:170px;
     }
     .self{
-        display: contents;
+        display: inline;
         font-size: 12px;
         padding-left: 120px;
     }
@@ -139,6 +139,7 @@ transition: 0.3s;
     .self_2
     {
         padding-top:2px;
+        padding-left: 10px;
     }
     .top
     {
@@ -148,6 +149,7 @@ transition: 0.3s;
         color:#FF2F2F;
     }
 } 
+
 .cent{
     width:70%;
 }
