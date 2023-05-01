@@ -12,6 +12,14 @@
     height:100%;
     background: rgb(46, 45, 45);
 }
+.pic
+{
+    border-radius: 50px;
+}
+.mimg
+{
+    padding-left: 50px;
+}
 .side_nav
 {
     width: 250px;
