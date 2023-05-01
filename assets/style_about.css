@@ -149,7 +149,65 @@ transition: 0.3s;
         color:#FF2F2F;
     }
 } 
-
+@media only screen and (max-width:768px) 
+{
+    .side_nav
+    {
+        width: 110px;
+    }
+    .nav_links li a p{
+        display: none;
+    }
+    .nav_links li a img{
+        margin-right: 0 ;
+    }
+    .nav_links li a{
+        justify-content: center;
+    }
+    .cont h2
+    {
+        display: contents;
+        font-size: 24px; 
+        padding-left:120px ;
+    }
+    .cent{
+        font-size: 24px;
+        padding-left: 120px;
+        padding-top:170px;
+    }
+    .self{
+        display: inline;
+        font-size: 22px;
+        padding-left: 120px;
+    }
+    .tool h2
+    {
+        display: contents;
+        font-size: 22px;
+        padding-left: 120px;
+    }
+    .tool img
+    {
+        display: contents;
+        padding-left: 120px;
+    }
+    .tool1{
+        display: contents;
+        padding-left: 120px;
+    }
+    .self_2
+    {
+        padding-top:2px;
+        padding-left: 10px;
+    }
+    .top
+    {
+        display: contents;
+    }
+    .break{
+        color:#FF2F2F;
+    }
+}
 .cent{
     width:70%;
 }

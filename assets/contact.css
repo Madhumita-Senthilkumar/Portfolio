@@ -170,7 +170,7 @@ border-right: none;
   .fblock
   {
     padding-top: 30px;
-    padding-left: 300px;
+    padding-left: 280px;
     display: inline;
   }
 @media only screen and (max-width: 576px)
@@ -227,6 +227,60 @@ border-right: none;
         padding-left: 180px;
       }
 } 
+@media only screen and (max-width:768px) 
+{
+    .side_nav
+    {
+        width: 110px;
+    }
+    .nav_links li a p{
+        display: none;
+    }
+    .nav_links li a img{
+        margin-right: 0 ;
+    }
+    .nav_links li a{
+        justify-content: center;
+    }
+    .container
+    {
+        display: contents;
+        font-size: 24px;
+        padding-left: 120px;
+    }
+    .name,.email,.country,.sub
+    {
+        padding-left: 120px;
+        padding-right: 3px;
+    }
+    #name,#email,#country
+    {
+        width:60%;
+    }
+    #subject
+    {
+        margin-left: 180px;
+        margin-right: 50px;
+        width:187px;
+    }
+    input[type=submit] {
+        background-color: #ff2f20;
+        margin-left: 370px;
+        color: white;
+        padding: 12px 40px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #FF2F2F;
+      }
+      .fblock
+      {
+        display: inline;
+        padding-left: 360px;
+      }
+}
 .container
 {
     padding-left: 350px;
