@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;  
 ​}
-
 .header
 {
     width: 100%;
@@ -174,7 +173,7 @@ border-right: none;
     padding-left: 300px;
     display: inline;
   }
-@media only screen and (max-width: 600px) and (orientation : landscape)
+@media only screen and (max-width: 600px)
 {
     .side_nav
     {
