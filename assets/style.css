@@ -142,6 +142,7 @@ transition: 0.3s;
     {
         padding-left: 120px;
         font-size: 14px;
+        display: inline;
     }
     .dynamic li span {
         display: block;
