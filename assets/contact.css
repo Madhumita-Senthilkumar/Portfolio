@@ -173,7 +173,7 @@ border-right: none;
     padding-left: 300px;
     display: inline;
   }
-@media only screen and (max-width: 375px)
+@media only screen and (max-width: 576px)
 {
     .side_nav
     {
