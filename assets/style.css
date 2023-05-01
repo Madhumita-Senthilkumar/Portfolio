@@ -90,7 +90,7 @@ transition: 0.3s;
 {
     display: none;
 }
-@media only screen and (max-width: 576px)
+@media only screen and (max-width:600px) and (orientation:landscape)
 {
     .side_nav
     {
