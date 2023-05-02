@@ -103,7 +103,6 @@ transition: 0.3s;
     .side_nav
     {
         width: 110px;
-        position: fixed;
     }
     .nav_links li a p{
         display: none;
@@ -120,6 +119,8 @@ transition: 0.3s;
     }
     .center{
         display: contents;
+        background-color: rgb(46, 45, 45);
+        background: scroll;
     }
     .center h2
     {
@@ -180,6 +181,9 @@ transition: 0.3s;
     }
     .center{
         display: contents;
+        background-color: rgb(46, 45, 45);
+        background: scroll;
+
     }
     .center h2
     {
