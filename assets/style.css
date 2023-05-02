@@ -107,6 +107,10 @@ transition: 0.3s;
     .nav_links li a p{
         display: none;
     }
+    .mimg
+    {
+        padding-left: 0px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -169,6 +173,10 @@ transition: 0.3s;
     .nav_links li a p{
         display: none;
     }
+    .mimg
+    {
+        padding-left: 0px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -183,7 +191,6 @@ transition: 0.3s;
         display: contents;
         background-color: rgb(46, 45, 45);
         background: scroll;
-
     }
     .center h2
     {

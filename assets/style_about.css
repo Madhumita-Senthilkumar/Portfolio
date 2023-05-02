@@ -107,6 +107,10 @@ transition: 0.3s;
     .nav_links li a p{
         display: none;
     }
+    .mimg
+    {
+        padding-left: 0px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -168,6 +172,10 @@ transition: 0.3s;
     }
     .nav_links li a img{
         margin-right: 0 ;
+    }
+    .mimg
+    {
+        padding-left: 0px;
     }
     .nav_links li a{
         justify-content: center;

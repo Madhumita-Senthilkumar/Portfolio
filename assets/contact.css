@@ -190,6 +190,10 @@ border-right: none;
     .nav_links li a p{
         display: none;
     }
+    .mimg
+    {
+        padding-left: 0px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -243,6 +247,10 @@ border-right: none;
     }
     .nav_links li a p{
         display: none;
+    }
+    .mimg
+    {
+        padding-left: 0px;
     }
     .nav_links li a img{
         margin-right: 0 ;
