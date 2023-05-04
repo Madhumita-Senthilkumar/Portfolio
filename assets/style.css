@@ -157,7 +157,12 @@ transition: 0.3s;
         font-size: 14px;
         display: inline;
     }
-    .dynamic li span ::after {
+    .dynamic li span {
+        display: block;
+        position: relative;
+        font-size: 14px;
+    }
+    .dynamic li span ::after{
         display: none;
     }
 }
@@ -220,6 +225,11 @@ transition: 0.3s;
         padding-left: 120px;
         font-size: 22px;
         display: inline;
+    }
+    .dynamic li span {
+        display: block;
+        position: relative;
+        font-size: 14px;
     }
     .dynamic li span ::after{
         display: none;
@@ -287,7 +297,66 @@ transition: 0.3s;
         font-size: 22px;
         display: inline;
     }
-    .dynamic li span ::after {
+    .dynamic li span {
+        display: block;
+        position: relative;
+        font-size: 14px;
+    }
+    .dynamic li span ::after{
+        display: none;
+    }
+}
+@media only screen and (min-width:820px) and (max-width:1180px)
+{
+    
+   
+    .header
+    {
+        display: block;
+    }
+    .center{
+        display: contents;
+        background-color: rgb(46, 45, 45);
+        background: scroll;
+    }
+    .center h2
+    {
+        font-size: 22px;
+        display: flex;
+        padding-left: 280px;
+    padding-top: 180px;
+    }
+    .wrap h3
+    {
+        padding-left: 280px;
+        font-size: 22px;
+    }
+    .dynamic b{
+        display: contents;
+        font-size: 22px;
+    }
+    .center_1 
+    {
+        display: contents;
+    }
+    .center_1 p
+    {
+        padding-left: 280px;
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    .static h2
+    {
+        padding-left: 120px;
+        font-size: 22px;
+        display: inline;
+    }
+    .dynamic li span {
+        display: block;
+        position: relative;
+        font-size: 14px;
+    }
+    .dynamic li span ::after{
         display: none;
     }
 }
