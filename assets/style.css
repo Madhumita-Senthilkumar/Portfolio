@@ -157,7 +157,7 @@ transition: 0.3s;
         font-size: 14px;
         display: inline;
     }
-    .dynamic li span {
+    .dynamic li span ::after {
         display: none;
     }
 }
@@ -221,11 +221,11 @@ transition: 0.3s;
         font-size: 22px;
         display: inline;
     }
-    .dynamic li span {
+    .dynamic li span ::after{
         display: none;
     }
 }
-@media only screen and (min-width:320px) and (max-width:480)
+@media only screen and (min-width:320px) and (max-width:480px)
 {
     
     .side_nav
@@ -287,7 +287,7 @@ transition: 0.3s;
         font-size: 22px;
         display: inline;
     }
-    .dynamic li span {
+    .dynamic li span ::after {
         display: none;
     }
 }
