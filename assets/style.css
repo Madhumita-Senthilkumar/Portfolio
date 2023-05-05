@@ -247,6 +247,7 @@ transition: 0.3s;
         width: 110px;
         position: absolute;
         padding-top: 20px;
+        height: max-content;
     }
     .nav_links li
     {
@@ -258,8 +259,11 @@ transition: 0.3s;
         padding-left: 120px;
     padding-top: 170px;
     }
+    .center_1 p 
+    {
+        height: max-content;
+    }
   }
-  
 @media only screen and (min-width:320px) and (max-width:480px)
 {
     
@@ -331,10 +335,25 @@ transition: 0.3s;
         display: none;
     }
 }
+@media only screen and (min-width:820px) and (max-width:1180px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        height: fit-content;
+        padding-top: 10px;
+    }
+    .nav_links li 
+    {
+        padding-top: 5px;
+    }
+    .center h2 
+    {
+        padding-top: 10px;
+        position: inline;
+    }
+}
 @media only screen and (min-width:820px) and (max-width:1180px)
 {
-    
-   
     .header
     {
         display: block;
