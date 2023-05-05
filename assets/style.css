@@ -98,18 +98,8 @@ transition: 0.3s;
 {
     display: none;
 }
-@media only screen and (min-width:576px) and (orientation: landscape) 
+@media only screen and (max-width:576px) and (orientation:landscape)
 {
-    .side_nav
-    {
-        width: 110px;
-    }
-    .header
-    {
-        display: flex;
-    height: 100%;
-    background: rgb(46, 45, 45);
-    }
 }
 @media only screen and (max-width:576px) 
 {
