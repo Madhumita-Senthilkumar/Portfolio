@@ -259,9 +259,9 @@ transition: 0.3s;
         padding-left: 120px;
     padding-top: 170px;
     }
-    .center_1 p 
+    p 
     {
-        height: max-content;
+    background-color: rgb(46, 45, 45);    
     }
   }
 @media only screen and (min-width:320px) and (max-width:480px)
