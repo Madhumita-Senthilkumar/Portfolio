@@ -259,9 +259,12 @@ transition: 0.3s;
         padding-left: 120px;
     padding-top: 170px;
     }
-    p 
+    .center_1 p
     {
-    background-color: rgb(46, 45, 45);    
+        height: max-content;
+        padding-bottom: 50px;
+        padding-bottom: 20px;
+        background-color: rgb(46, 45, 45);
     }
   }
 @media only screen and (min-width:320px) and (max-width:480px)
@@ -335,7 +338,7 @@ transition: 0.3s;
         display: none;
     }
 }
-@media only screen and (min-width:820px) and (max-width:1180px) and (orientation:landscape)
+@media only screen and (min-width:820px) and (max-width:1000px) and (orientation:landscape)
 {
     .side_nav 
     {

@@ -98,6 +98,16 @@ transition: 0.3s;
 {
     display: none;
 }
+@media only screen and (max-width: 576px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        width: 110px;
+        position: absolute;
+        padding-top: 20px;
+        height: max-content;
+    }
+}
 @media only screen and (max-width: 576px)
 {
     .side_nav
@@ -161,6 +171,49 @@ transition: 0.3s;
         color:#FF2F2F;
     }
 } 
+@media only screen and (min-width:653px) and (max-width:654px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        width: 110px;
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 130%;
+        height: max-content;
+    }
+    .mimg 
+    {
+        width:40px;
+        height: 70px;
+    }
+    .nav_links li
+    {
+            padding-top: 40px;
+    }
+    .cent 
+    {
+        padding-top: 2px;
+    }
+}
+@media only screen and (max-width:768px) and (orientation:landscape)
+{
+    .header
+    {
+        background-color: rgb;
+    }
+    .side_nav
+    {
+        width: 110px;
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 128%;
+        height: max-content;
+    }
+    .nav_links li
+    {
+            padding-top: 40px;
+    }
+}
 @media only screen and (max-width:768px) 
 {
     .side_nav
@@ -225,6 +278,7 @@ transition: 0.3s;
         color:#FF2F2F;
     }
 }
+
 @media only screen and (min-width:320px) and (max-width:480px)
 {
     .header 
@@ -293,7 +347,24 @@ transition: 0.3s;
         color:#FF2F2F;
     }
 }
-
+@media only screen and (min-width:820px) and (max-width:1180px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        width: 220px;
+        position: fixed;
+        padding-top: 20px;
+        height: 100%;
+    }
+    .nav_links li
+    {
+        padding-top: 1px;
+    }
+    .cent
+    {
+        padding-top: 10px;
+    }
+}
 @media only screen and (min-width:820px) and (max-width:1180px)
 {
     .cont h2
