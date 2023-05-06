@@ -98,6 +98,21 @@ transition: 0.3s;
 {
     display: none;
 }
+@media only screen and (max-width: 576px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        width: 110px;
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 184%;
+        height: max-content;
+    }
+    .nav_links li
+    {
+            padding-top: 40px;
+    }
+}
 @media only screen and (max-width: 576px)
 {
     .side_nav
@@ -118,7 +133,7 @@ transition: 0.3s;
         justify-content: center;
     }
     .cent{
-        height: 100%;
+        height: max;
     }
     .center {
         display: contents;
@@ -168,6 +183,39 @@ transition: 0.3s;
         font-size: 16px;
     }
 } 
+@media only screen and (max-width:768px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        width: 110px;
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 184%;
+        height: max-content;
+    }
+    .nav_links li
+    {
+            padding-top: 40px;
+    }
+    .cent 
+    {
+        height: 90%;
+    }
+}
+@media only screen and (width:740px) and (orientation:landscape)
+{
+    
+    .side_nav
+    {
+        width: 210px;
+        padding-bottom: 145%;
+    }
+    .center h2,.projects
+    {
+        padding-left: 120px;
+    }
+}
+
 @media only screen and (max-width:768px) 
 {
     .side_nav
@@ -308,6 +356,179 @@ transition: 0.3s;
         font-size: 20px;
     }
 }
+@media only screen and (width:844px) and (orientation:landscape)
+{
+    .side_nav
+{
+
+    position: absolute;
+    padding-top: 90px;
+    padding-bottom: 82%;
+    height: max-content;
+}
+.nav_links li
+{
+        padding-top: 40px;
+}
+.cent 
+{
+    background-color: rgb(46, 45, 45);
+    height: max-content;
+}
+}
+@media only screen and (min-width:896px) and (max-width:913px) and (orientation:landscape)
+{
+.side_nav
+{
+
+    position: absolute;
+    padding-top: 90px;
+    padding-bottom: 72%;
+    height: max-content;
+}
+.nav_links li
+{
+        padding-top: 40px;
+}
+.cent 
+{
+    background-color: rgb(46, 45, 45);
+    height: max-content;
+}
+}
+@media only screen and (width:896px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        padding-top: 90px;
+        padding-bottom: 85%;
+        height: max-content;
+    }  
+}
+@media only screen and (width:914px) and (orientation:landscape)
+{
+    .side_nav
+    {
+        padding-top: 90px;
+        padding-bottom: 85%;
+        height: max-content;
+    } 
+}
+@media only screen and (width:851px) and (orientation:landscape)
+{
+    .side_nav
+    {
+    
+        position: absolute;
+        padding-bottom: 95%;
+        height: max-content;
+    }  
+}
+@media only screen and (width:1180px) and (orientation:landscape)
+{
+    .cent{
+        height: 100%;
+        padding-bottom:59%;
+    }
+}
+@media only screen and (width:720px) and (orientation:landscape)
+{
+    .cent{
+        height: 100%;
+        padding-bottom:39%;
+    }
+}
+@media only screen and (width:1024px) and (orientation:landscape)
+{
+    .cent{
+        height: 100%;
+        padding-bottom:44%;
+    }
+}
+@media only screen and (width:1368px) and (orientation:landscape)
+{
+    .cent{
+    
+        padding-bottom:8%;
+    }
+    .side_nav
+    {
+    
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 25%;
+        height: max-content;
+    }  
+}
+@media only screen and (width:851px) and (orientation:landscape)
+{
+    .cent{
+    
+        padding-bottom:8%;
+    }
+    .side_nav
+    {
+    
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 25%;
+        height: max-content;
+    }  
+}
+@media only screen and (min-width:852px) and (max-width:895px) and (orientation:landscape)
+{
+    .cent{
+        height: 100%;
+        padding-bottom:13%;
+    }
+    .center {
+        display: contents;
+        font-size: 20px; 
+        padding-left: 120px;
+    }
+    .center h2,.projects
+    {
+        padding-left: 300px;
+    }
+    .header
+{
+    width:100%;
+    height:100%;
+    background: rgb(46, 45, 45);
+}
+    .pimg,.pimg_1,.pimg_2,.port
+    {
+        height:30px;
+        width: 30px;
+    }
+   .pimg 
+    {
+        display: contents;
+    }
+    .pimg p {
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .pimg_1
+    {
+        display: contents;
+    }
+    .pimg_1 p {
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .pimg_2
+    {
+        display: contents;
+    }
+    .pimg_2 p {
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+}
 @media only screen and (min-width:820px) and (max-width:1180px) 
 {
     .cent{
@@ -317,6 +538,7 @@ transition: 0.3s;
         display: contents;
         font-size: 20px; 
         padding-left: 120px;
+        padding-bottom:;
     }
     .center h2,.projects
     {
