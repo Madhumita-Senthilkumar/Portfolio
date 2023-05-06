@@ -366,6 +366,38 @@ border-right: none;
         display: none;
       }
 }
+@media only screen and (max-width:768px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 100%;
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 3%;
+    }
+}
+@media only screen and (width:896px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 70%;
+    }
+    .container
+    {
+        background-color: rgb(46, 45, 45);
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 8%;
+    }
+}
 .container
 {
     padding-left: 350px;
