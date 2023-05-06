@@ -239,11 +239,11 @@ border-right: none;
         padding-left: 180px;
       }
 } 
-@media only screen and (min-width:320px) and (max-width:480)
+@media only screen and (max-width:280px) 
 {
     .center
     {
-        width: 100%;
+        width: 200%;
         height:100%;
     }
     .side_nav
@@ -269,6 +269,11 @@ border-right: none;
         font-size: 12px;
         padding-left: 120px;
     }
+    .form1 
+    {
+        height: auto;
+        background-color: rgb(46, 45, 45);
+    }
     .name,.email,.country,.sub
     {
         padding-left: 120px;
@@ -276,7 +281,7 @@ border-right: none;
     }
     #name,#email,#country
     {
-        width:40%;
+        width:60%;
         
     }
     #subject
@@ -313,6 +318,7 @@ border-right: none;
     .side_nav
     {
         width: 110px;
+
     }
     .nav_links li a p{
         display: none;
@@ -331,6 +337,7 @@ border-right: none;
     {
         display: contents;
         font-size: 24px;
+        height: auto;
         padding-left: 120px;
     }
     .name,.email,.country,.sub
@@ -372,12 +379,49 @@ border-right: none;
     {
         position: absolute;
         padding-top: 10px;
-        padding-bottom: 100%;
+        padding-bottom: 105%;
     }
     .form1 
     {
         background-color: rgb(46, 45, 45);
-        padding-bottom: 3%;
+        height: auto;
+        padding-bottom: 45px;
+    }
+}
+@media only screen and (width:720px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 98%;
+    }
+    .container
+    {
+        background-color: rgb(46, 45, 45);
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 8%;
+    }
+}
+@media only screen and (width:653px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 96%;
+    }
+    .container
+    {
+        background-color: rgb(46, 45, 45);
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 8%;
     }
 }
 @media only screen and (width:896px) and (orientation:landscape)
@@ -396,6 +440,40 @@ border-right: none;
     {
         background-color: rgb(46, 45, 45);
         padding-bottom: 8%;
+    }
+}
+@media only screen and (width:844px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 70%;
+    }
+    .container
+    {
+        background-color: rgb(46, 45, 45);
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 1%;
+    }
+}
+@media only screen and (width:851px) and (orientation:landscape)
+{
+    .side_nav 
+    {
+        position: absolute;
+    }
+    .container
+    {
+        background-color: rgb(46, 45, 45);
+    }
+    .form1 
+    {
+        background-color: rgb(46, 45, 45);
+        padding-bottom: 1%;
     }
 }
 .container
