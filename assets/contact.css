@@ -8,7 +8,7 @@
 ​}
 .header
 {
-    width: 100%;
+    width: ;
     height: 100vh;
     background: rgb(46, 45, 45);
 }
@@ -65,6 +65,11 @@
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(255,255,255,0.4);
     display: none;
+}
+.center h3 
+{
+    padding-top: 20px;
+    text-align: center;
 }
 .nav_links li:hover a{
 color: #FF2F2F;
@@ -187,6 +192,10 @@ border-right: none;
     {
         width: 110px;
     }
+    .center h3 
+    {
+        text-align: center;
+    }
     .nav_links li a p{
         display: none;
     }
@@ -245,6 +254,10 @@ border-right: none;
     {
         width: 200%;
         height:100%;
+    }
+    .center h3 
+    {
+        text-align: center;
     }
     .side_nav
     {
@@ -315,6 +328,10 @@ border-right: none;
         width: 100%;
         height:100%;
     }
+    .center h3 
+    {
+        text-align: center;
+    }
     .side_nav
     {
         width: 110px;
@@ -375,6 +392,10 @@ border-right: none;
 }
 @media only screen and (max-width:768px) and (orientation:landscape)
 {
+    .center h3 
+    {
+        text-align: center;
+    }
     .side_nav 
     {
         position: absolute;
@@ -396,6 +417,10 @@ border-right: none;
         padding-top: 10px;
         padding-bottom: 98%;
     }
+    .center h3 
+    {
+        text-align: center;
+    }
     .container
     {
         background-color: rgb(46, 45, 45);
@@ -413,6 +438,10 @@ border-right: none;
         position: absolute;
         padding-top: 10px;
         padding-bottom: 96%;
+    }
+    .center h3 
+    {
+        text-align: center;
     }
     .container
     {
@@ -432,6 +461,10 @@ border-right: none;
         padding-top: 10px;
         padding-bottom: 70%;
     }
+    .center h3 
+    {
+        text-align: center;
+    }
     .container
     {
         background-color: rgb(46, 45, 45);
@@ -450,6 +483,10 @@ border-right: none;
         padding-top: 10px;
         padding-bottom: 70%;
     }
+    .center h3 
+    {
+        text-align: center;
+    }
     .container
     {
         background-color: rgb(46, 45, 45);
@@ -465,6 +502,10 @@ border-right: none;
     .side_nav 
     {
         position: absolute;
+    }
+    .center h3 
+    {
+        text-align: center;
     }
     .container
     {
