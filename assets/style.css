@@ -35,7 +35,6 @@
 .nav_links
 {
     list-style-type: none;
-    position: relative;
 }
 .nav_links li{
     padding: 20px 0;
