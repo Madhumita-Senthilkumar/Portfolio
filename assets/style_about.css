@@ -127,12 +127,6 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
-    .cont h2
-    {
-        display: contents;
-        font-size: 14px; 
-        padding-left:120px ;
-    }
     .cent{
         font-size: 14px;
         padding-left: 120px;
@@ -233,12 +227,6 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
-    .cont h2
-    {
-        display: contents;
-        font-size: 24px; 
-        padding-left:120px ;
-    }
     .cent{
         font-size: 24px;
         padding-left: 120px;
@@ -303,12 +291,6 @@ transition: 0.3s;
     .nav_links li a{
         justify-content: center;
     }
-    .cont h2
-    {
-        display: contents;
-        font-size: 20px; 
-        padding-left:120px ;
-    }
     .cent{
         font-size: 20px;
         padding-left: 120px;
@@ -367,12 +349,6 @@ transition: 0.3s;
 }
 @media only screen and (min-width:820px) and (max-width:1180px)
 {
-    .cont h2
-    {
-        display: contents;
-        font-size: 20px; 
-        padding-left:280px ;
-    }
     .cent{
         font-size: 20px;
         padding-left: 300px;
@@ -427,12 +403,17 @@ padding-top: 40px;
 color: #f4e9e9;
 list-style-type: none;
 }
+.self_2 li b
+{
+    justify-content: center;
+}
 .self_2 img
 {
     margin-top: 4px;
 }
 .self_2 b
 {
+    margin-top: 0%;
     padding-left: 20px;
 }
 .tool1
