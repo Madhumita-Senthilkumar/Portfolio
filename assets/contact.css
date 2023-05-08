@@ -351,7 +351,7 @@ color: #090909;
     {
         width: 110px;
         position: absolute;
-        height: 100vh;
+        height: 100%;
     }
     .pic 
     {
@@ -398,7 +398,7 @@ color: #090909;
     {
         margin-left: 130px;
         margin-right: 50px;
-        width:218px;
+        width:60%;
     }
     input[type=submit] {
         background-color: #ff2f20;
