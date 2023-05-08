@@ -107,6 +107,11 @@ transition: 0.3s;
         padding-top: 20px;
         height: max-content;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
 }
 @media only screen and (max-width: 576px)
 {
@@ -120,6 +125,11 @@ transition: 0.3s;
     .mimg
     {
         padding-left: 0px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .nav_links li a img{
         margin-right: 0 ;
@@ -180,6 +190,11 @@ transition: 0.3s;
         width:40px;
         height: 70px;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .nav_links li
     {
             padding-top: 40px;
@@ -203,6 +218,11 @@ transition: 0.3s;
         padding-bottom: 128%;
         height: max-content;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .nav_links li
     {
             padding-top: 40px;
@@ -223,6 +243,11 @@ transition: 0.3s;
     .mimg
     {
         padding-left: 0px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .nav_links li a{
         justify-content: center;
@@ -288,6 +313,11 @@ transition: 0.3s;
     {
         padding-left: 0px;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .nav_links li a{
         justify-content: center;
     }
@@ -342,6 +372,11 @@ transition: 0.3s;
     {
         padding-top: 1px;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .cent
     {
         padding-top: 10px;
@@ -358,6 +393,11 @@ transition: 0.3s;
         display: inline;
         font-size: 20px;
         padding-left: 120px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .tool h2
     {

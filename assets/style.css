@@ -117,6 +117,11 @@ transition: 0.3s;
     {
         padding-left: 0px;
     }
+    .pic 
+    {
+        width: 60px;
+        height: 60px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -186,6 +191,11 @@ transition: 0.3s;
     {
         padding-left: 0px;
     }
+    .pic 
+    {
+        width: 60px;
+        height: 60px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -225,6 +235,8 @@ transition: 0.3s;
         padding-left: 120px;
         padding-top: 40px;
         font-size: 24px;
+        height: max-content;
+        background-color: rgb(46, 45, 45);
     }
     .static h2
     {

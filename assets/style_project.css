@@ -108,6 +108,11 @@ transition: 0.3s;
         padding-bottom: 184%;
         height: max-content;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .nav_links li
     {
             padding-top: 40px;
@@ -125,6 +130,11 @@ transition: 0.3s;
     .mimg
     {
         padding-left: 0px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .nav_links li a img{
         margin-right: 0 ;
@@ -197,6 +207,11 @@ transition: 0.3s;
     {
             padding-top: 40px;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .cent 
     {
         height: 90%;
@@ -209,6 +224,11 @@ transition: 0.3s;
     {
         width: 210px;
         padding-bottom: 145%;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .center h2,.projects
     {
@@ -228,6 +248,11 @@ transition: 0.3s;
     .mimg
     {
         padding-left: 0px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .nav_links li a img{
         margin-right: 0 ;
@@ -299,6 +324,11 @@ transition: 0.3s;
     {
         padding-left: 0px;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
     .nav_links li a img{
         margin-right: 0 ;
     }
@@ -366,6 +396,11 @@ transition: 0.3s;
     padding-bottom: 82%;
     height: max-content;
 }
+.pic 
+{
+    width:60px;
+    height: 60px;
+}
 .nav_links li
 {
         padding-top: 40px;
@@ -386,6 +421,11 @@ transition: 0.3s;
     padding-bottom: 72%;
     height: max-content;
 }
+.pic 
+{
+    width:60px;
+    height: 60px;
+}
 .nav_links li
 {
         padding-top: 40px;
@@ -404,6 +444,11 @@ transition: 0.3s;
         padding-bottom: 85%;
         height: max-content;
     }  
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
 }
 @media only screen and (width:914px) and (orientation:landscape)
 {
@@ -413,6 +458,11 @@ transition: 0.3s;
         padding-bottom: 85%;
         height: max-content;
     } 
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
 }
 @media only screen and (width:851px) and (orientation:landscape)
 {
@@ -422,13 +472,23 @@ transition: 0.3s;
         position: absolute;
         padding-bottom: 95%;
         height: max-content;
-    }  
+    } 
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    } 
 }
 @media only screen and (width:1180px) and (orientation:landscape)
 {
     .cent{
         height: 100%;
         padding-bottom:59%;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
 }
 @media only screen and (width:720px) and (orientation:landscape)
@@ -437,6 +497,11 @@ transition: 0.3s;
         height: 100%;
         padding-bottom:39%;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
 }
 @media only screen and (width:1024px) and (orientation:landscape)
 {
@@ -444,12 +509,22 @@ transition: 0.3s;
         height: 100%;
         padding-bottom:44%;
     }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
+    }
 }
 @media only screen and (width:1368px) and (orientation:landscape)
 {
     .cent{
     
         padding-bottom:8%;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .side_nav
     {
@@ -465,6 +540,11 @@ transition: 0.3s;
     .cent{
     
         padding-bottom:8%;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .side_nav
     {
@@ -485,6 +565,11 @@ transition: 0.3s;
         display: contents;
         font-size: 20px; 
         padding-left: 120px;
+    }
+    .pic 
+    {
+        width:60px;
+        height: 60px;
     }
     .center h2,.projects
     {
@@ -533,6 +618,7 @@ transition: 0.3s;
 {
     .cent{
         height: 100%;
+        background-color: rgb(46, 45, 45);
     }
     .center {
         display: contents;
